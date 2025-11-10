@@ -68,6 +68,11 @@
     .producto img {
         width: 200px;
         height: auto;
+        transition: transform 0.1s ease;
+    }
+
+    .producto img:hover {
+        transform: scale(1.1);
     }
 
     .producto p {
@@ -110,12 +115,21 @@
 
     button {
         background-color: rgb(242, 232, 217);
-        padding: 6px 8px;
-        margin: 5px;
+        padding: 10px 16px;
+        margin: 10px 0;
         border: 1px solid rgb(69, 66, 66);
         border-radius: 5px;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+
+    button:hover {
+        background-color: rgb(230, 210, 180);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 600;
     }
 
     .footer {
@@ -131,6 +145,8 @@
 
     .redes a {
         font-size: 18px;
+        transition: transform 0.3s;
+        display: inline-block;
     }
 
 }
@@ -212,7 +228,11 @@
 
     .producto img {
         width: 200px;
-        height: auto;
+        transition: transform 0.1s ease;
+    }
+
+    .producto img:hover {
+        transform: scale(1.1);
     }
 
     .producto p {
@@ -231,13 +251,23 @@
 
     button {
         background-color: rgb(242, 232, 217);
-        padding: 6px 8px;
-        margin: 5px;
+        padding: 10px 16px;
+        margin: 10px 0;
         border: 1px solid rgb(69, 66, 66);
         border-radius: 5px;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
     }
+
+
+    button:hover {
+        background-color: rgb(230, 210, 180);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 600;
+    }
+
 
     .footer {
         display: grid;
@@ -251,6 +281,8 @@
 
     .redes a {
         font-size: 18px;
+        transition: transform 0.3s;
+        display: inline-block;
     }
 
 }
@@ -288,6 +320,8 @@
 
     .links i {
         font-size: 26px;
+        padding: 10px;
+
     }
 
     .principal {
@@ -336,6 +370,11 @@
     .producto img {
         width: 270px;
         height: auto;
+        transition: transform 0.1s ease;
+    }
+
+    .producto img:hover {
+        transform: scale(1.1);
     }
 
     .producto p {
@@ -354,12 +393,21 @@
 
     button {
         background-color: rgb(242, 232, 217);
-        padding: 10px 12px;
+        padding: 10px 16px;
         margin: 10px 0;
         border: 1px solid rgb(69, 66, 66);
         border-radius: 5px;
         font-weight: 500;
         font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+
+    button:hover {
+        background-color: rgb(230, 210, 180);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 600;
     }
 
     .footer {
@@ -375,7 +423,10 @@
     .redes a {
         font-size: 28px;
         padding-bottom: 5px;
+        transition: transform 0.3s;
+        display: inline-block;
     }
+
 
 }
 
@@ -394,7 +445,15 @@ header {
 .menu a:hover {
     background-color: rgb(242, 232, 217);
     border-radius: 3px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+    padding: 10px;
 }
+
+ .redes a:hover {
+        transform: scale(1.5);
+    }
+
 
 .medial {
     display: flex;
